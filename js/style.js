@@ -15,22 +15,10 @@ var typed = new Typed(".typed", {
 
 setTimeout(() => {
     $('#me-text').show("slow");
-}, 5000);
+}, 3200);
 
 /* scroll function */
-$(window).scroll(function () {
-    const scroll = $(window).scrollTop();
-
-    if (Math.abs(scroll - last_scroll) > $(window).height() * 0.1) {
-
-        $('.skills').each(function (index) {
-            if (isVisible($(this))) {
-                animateBar();
-            }
-        });
-
-    }
-});
+animateBar();
 
 /* helper functions */
 function isVisible(element) {
