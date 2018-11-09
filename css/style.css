@@ -225,25 +225,25 @@ p{
 
 @font-face {
     font-family: popbold;
-    src: url("/fonts/Poppins-Bold.otf");
+    src: url("../fonts/Poppins-Bold.otf");
 }
 
 @font-face {
     font-family: popblack;
-    src: url("/fonts/Poppins-Black.otf");
+    src: url("../fonts/Poppins-Black.otf");
 }
 
 @font-face {
     font-family: poplight;
-    src: url("/fonts/Poppins-Light.otf");
+    src: url("../fonts/Poppins-Light.otf");
 }
 
 @font-face {
     font-family: popreg;
-    src: url("/fonts/Poppins-Regular.otf");
+    src: url("../fonts/Poppins-Regular.otf");
 }
 
 @font-face{
     font-family: popmed;
-    src: url("/fonts/Poppins-Medium.otf");
+    src: url("../fonts/Poppins-Medium.otf");
 }
