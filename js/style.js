@@ -22,11 +22,11 @@ animateBar();
 
 /* helper functions */
 function isVisible(element) {
-    const scroll_pos = $(window).scrollTop();
-    const window_height = $(window).height();
-    const el_top = $(element).offset().top;
-    const el_height = $(element).height();
-    const el_bottom = el_top + el_height;
+    let scroll_pos = $(window).scrollTop();
+    let window_height = $(window).height();
+    let el_top = $(element).offset().top;
+    let el_height = $(element).height();
+    let el_bottom = el_top + el_height;
     return ((el_bottom - el_height * 0.25 > scroll_pos) && (el_top < (scroll_pos + 0.5 * window_height)));
 }
 

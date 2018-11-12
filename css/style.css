@@ -204,6 +204,18 @@ p{
 .cp-text{
     color: #fff;
 }
+.porto{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.card-img-top{
+    max-height: 200px;
+    object-fit: cover;
+}
+.card{
+    height: 300px;
+}
+
 
 @media screen and (max-width: 480px){
     .inner .title-text{
@@ -221,6 +233,13 @@ p{
     .social-links{
         margin-top: 20px;
         text-align: left;
+    }
+    .porto{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .card{
+        margin-bottom: 20px;
     }
 }
 
