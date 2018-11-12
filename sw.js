@@ -2,7 +2,7 @@ importScripts('/cache-polyfill.js');
 
 self.addEventListener('install', function (event) {
     event.waitUntil(
-        caches.open('demo-cache').then(function (cache) {
+        caches.open('portofolio').then(function (cache) {
             return cache.put('/', new Response("From the cache!"));
         })
     );
