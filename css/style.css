@@ -216,7 +216,11 @@ p{
     height: 380px;
 }
 
-
+@media screen and (max-width: 768px){
+    .card {
+        margin-bottom: 20px;
+    }
+}
 @media screen and (max-width: 480px){
     .inner .title-text{
         font-size: 28px;
@@ -237,9 +241,6 @@ p{
     .porto{
         margin-left: 0;
         margin-right: 0;
-    }
-    .card{
-        margin-bottom: 20px;
     }
 }
 
