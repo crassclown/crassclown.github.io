@@ -204,12 +204,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.7.1/lazyload.min.js"></script>
     <script>var myLazyLoad = new LazyLoad();</script>
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.getRegistrations().then(function(registrations) {
-            for(let registration of registrations) {
-            registration.unregister()
-            } });
-        }
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(let registration of registrations) {
+        registration.unregister()
+        } });
     </script>
 </body>
 </html>
