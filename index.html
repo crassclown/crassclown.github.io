@@ -13,7 +13,17 @@
     <meta content="Indonesia" name="geo.placename" />
 
     <title>Hendry Nugroho</title>
-
+    <!-- Preload css -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css">
+    <link rel="preload" as="style" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preload" as="style" href="css/style.css">
+    <link rel="preload" href="./fonts/Poppins-Black.otf" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/Poppins-Bold.otf" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/Poppins-Light.otf" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/Poppins-Medium.otf" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/Poppins-Regular.otf" as="font" type="font/woff2" crossorigin="anonymous">
+    <!-- ./Preload css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -219,7 +229,6 @@
     <script>var myLazyLoad = new LazyLoad();</script>
     <script>
         window.addEventListener('load', async e => {
-            await fetchTrending();
 
             if ('serviceWorker' in navigator) {
                 try {
