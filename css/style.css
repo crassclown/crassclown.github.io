@@ -247,25 +247,30 @@ p{
 
 @font-face {
     font-family: popbold;
+    font-display: swap;
     src: url("../fonts/Poppins-Bold.otf");
 }
 
 @font-face {
     font-family: popblack;
+    font-display: swap;
     src: url("../fonts/Poppins-Black.otf");
 }
 
 @font-face {
     font-family: poplight;
+    font-display: swap;
     src: url("../fonts/Poppins-Light.otf");
 }
 
 @font-face {
     font-family: popreg;
+    font-display: swap;
     src: url("../fonts/Poppins-Regular.otf");
 }
 
 @font-face{
     font-family: popmed;
+    font-display: swap;
     src: url("../fonts/Poppins-Medium.otf");
 }
